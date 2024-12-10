@@ -73,7 +73,7 @@ CC = gcc
 #
 #   CSWITCHES = -O -DNO_TIMER -DLINUX -I/usr/X11R6/include -L/usr/X11R6/lib
 
-CSWITCHES = -O -I/usr/X11R6/include -L/usr/X11R6/lib
+CSWITCHES = -static -O -I/usr/X11R6/include -L/usr/X11R6/lib
 
 # TRILIBDEFS is a list of definitions used to compile an object code version
 #   of Triangle (triangle.o) to be called by another program.  The file
