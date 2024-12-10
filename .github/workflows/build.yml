@@ -18,7 +18,7 @@ jobs:
         run: make
 
       - name: Check
-        run: ls -al
+        run: ls
 
       - name: Release
         uses: "marvinpinto/action-automatic-releases@latest"
