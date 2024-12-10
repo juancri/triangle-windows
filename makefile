@@ -94,7 +94,7 @@ RM = /bin/rm
 
 # The action starts here.
 
-all: $(BIN)triangle $(BIN)showme
+all: $(BIN)triangle
 
 trilibrary: $(BIN)triangle.o $(BIN)tricall
 
